@@ -370,5 +370,69 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua teste",
+      "number": "123",
+      "optionalAddress": "c2",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "teste",
+      "number": "123",
+      "optionalAddress": "c2",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "teste",
+      "number": "123",
+      "optionalAddress": "c1",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Abraão Teste",
+      "email": "abraaoTeste@gmail.com",
+      "emailConfirmation": "abraaoTeste@gmail.com",
+      "address": "Rua Teste",
+      "number": "1233",
+      "optionalAddress": "C2",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "donut"
+        }
+      ],
+      "id": 4
+    }
+  ]
 }
